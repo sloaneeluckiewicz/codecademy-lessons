@@ -1,0 +1,7 @@
+1. loops perform repetitive actions so we don't have to code that process manually every time.
+2. for loops are written with an iterator variable that increments or decrements
+3. a nested for loop is a loop inside another loop 
+4. while loops allow for different types of stopping conditions
+5. stopping conditions are crucial for avoiding infinite loops
+6. do... while loops run code at least once - only checking the stopping condition after the first execution 
+7. the break keyword allows programs to leave a loop during the execution of its block
