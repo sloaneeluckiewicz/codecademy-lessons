@@ -3,13 +3,20 @@ import SearchPage from './pages/search';
 import PetDetailsPage from './pages/detail';
 import PetDetailsNotFound from './pages/petDetailsNotFound';
 import Navigation from './components/navigation';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <Router>
+      <div>
       <Navigation />
-      <HomePage />
+      <Route path='/path/:type?'>
+        <HomePage />
+      </Route>
     </div>
+    </Router>
+    
   );
 }
 
